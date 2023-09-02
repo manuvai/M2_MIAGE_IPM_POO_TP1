@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="346px" preserveAspectRatio="none" style="width:450px;height:346px;background:#FFFFFF;" version="1.1" viewBox="0 0 450 346" width="450px" zoomAndPan="magnify"><defs/><g><!--MD5=[069cecb0f107147f35d50ee2cc41a241]
+class Athlete--><g id="elem_Athlete"><rect codeLine="4" fill="#F1F1F1" height="153.6563" id="Athlete" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="179" x="264" y="186"/><ellipse cx="327.25" cy="202" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M330.0156,197.875 Q330.1719,197.6563 330.3594,197.5469 Q330.5469,197.4375 330.7656,197.4375 Q331.1406,197.4375 331.375,197.6953 Q331.6094,197.9531 331.6094,198.5625 L331.6094,200.0156 Q331.6094,200.625 331.375,200.8906 Q331.1406,201.1563 330.7656,201.1563 Q330.4219,201.1563 330.2188,200.9531 Q330.0156,200.7656 329.9063,200.25 Q329.8594,199.8906 329.6719,199.7031 Q329.3438,199.3281 328.7344,199.1094 Q328.125,198.8906 327.5,198.8906 Q326.7344,198.8906 326.1016,199.2188 Q325.4688,199.5469 324.9766,200.2969 Q324.4844,201.0469 324.4844,202.0781 L324.4844,203.1719 Q324.4844,204.4063 325.375,205.2266 Q326.2656,206.0469 327.8594,206.0469 Q328.7969,206.0469 329.4531,205.7969 Q329.8438,205.6406 330.2656,205.2031 Q330.5313,204.9375 330.6797,204.8594 Q330.8281,204.7813 331.0313,204.7813 Q331.3594,204.7813 331.6172,205.0391 Q331.875,205.2969 331.875,205.6406 Q331.875,205.9844 331.5313,206.3906 Q331.0313,206.9688 330.2344,207.2969 Q329.1563,207.75 327.8594,207.75 Q326.3438,207.75 325.1406,207.125 Q324.1563,206.625 323.4688,205.5547 Q322.7813,204.4844 322.7813,203.2031 L322.7813,202.0469 Q322.7813,200.7188 323.3984,199.5703 Q324.0156,198.4219 325.1094,197.8047 Q326.2031,197.1875 327.4375,197.1875 Q328.1719,197.1875 328.8203,197.3516 Q329.4688,197.5156 330.0156,197.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="347.75" y="207.7285">Athlete</text><line style="stroke:#181818;stroke-width:0.5;" x1="265" x2="442" y1="218" y2="218"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="272" y="229.3047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35" x="284" y="236.5332">nom :</text><text fill="#008000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="323" y="236.5332">String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="272" y="246.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="284" y="254.1426">prenom :</text><text fill="#008000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="344" y="254.1426">String</text><line style="stroke:#181818;stroke-width:0.5;" x1="265" x2="442" y1="261.2188" y2="261.2188"/><ellipse cx="275" cy="275.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="284" y="279.752">getNom() :</text><text fill="#008000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="354" y="279.752">String</text><ellipse cx="275" cy="293.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="284" y="297.3613">setNom(String) :</text><text fill="#008000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="390" y="297.3613">void</text><ellipse cx="275" cy="310.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="284" y="314.9707">getPrenom() :</text><text fill="#008000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="375" y="314.9707">String</text><ellipse cx="275" cy="328.3516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="284" y="332.5801">setPrenom(String) :</text><text fill="#008000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="411" y="332.5801">void</text></g><!--MD5=[4066b0363c5a91ff3b6e03e0428953a9]
+class Course--><g id="elem_Course"><rect codeLine="14" fill="#F1F1F1" height="100.8281" id="Course" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="233" x="7" y="7"/><ellipse cx="96.25" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M99.0156,18.875 Q99.1719,18.6563 99.3594,18.5469 Q99.5469,18.4375 99.7656,18.4375 Q100.1406,18.4375 100.375,18.6953 Q100.6094,18.9531 100.6094,19.5625 L100.6094,21.0156 Q100.6094,21.625 100.375,21.8906 Q100.1406,22.1563 99.7656,22.1563 Q99.4219,22.1563 99.2188,21.9531 Q99.0156,21.7656 98.9063,21.25 Q98.8594,20.8906 98.6719,20.7031 Q98.3438,20.3281 97.7344,20.1094 Q97.125,19.8906 96.5,19.8906 Q95.7344,19.8906 95.1016,20.2188 Q94.4688,20.5469 93.9766,21.2969 Q93.4844,22.0469 93.4844,23.0781 L93.4844,24.1719 Q93.4844,25.4063 94.375,26.2266 Q95.2656,27.0469 96.8594,27.0469 Q97.7969,27.0469 98.4531,26.7969 Q98.8438,26.6406 99.2656,26.2031 Q99.5313,25.9375 99.6797,25.8594 Q99.8281,25.7813 100.0313,25.7813 Q100.3594,25.7813 100.6172,26.0391 Q100.875,26.2969 100.875,26.6406 Q100.875,26.9844 100.5313,27.3906 Q100.0313,27.9688 99.2344,28.2969 Q98.1563,28.75 96.8594,28.75 Q95.3438,28.75 94.1406,28.125 Q93.1563,27.625 92.4688,26.5547 Q91.7813,25.4844 91.7813,24.2031 L91.7813,23.0469 Q91.7813,21.7188 92.3984,20.5703 Q93.0156,19.4219 94.1094,18.8047 Q95.2031,18.1875 96.4375,18.1875 Q97.1719,18.1875 97.8203,18.3516 Q98.4688,18.5156 99.0156,18.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="116.75" y="28.7285">Course</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="239" y1="39" y2="39"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="50.3047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="27" y="57.5332">libelle :</text><text fill="#008000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="15" x="75" y="57.5332">int</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="239" y1="64.6094" y2="64.6094"/><ellipse cx="18" cy="78.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="27" y="83.1426">getLibelle() :</text><text fill="#008000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="110" y="83.1426">String</text><ellipse cx="18" cy="96.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="177" x="27" y="100.752">affecterAthlete(Athlete, int) :</text><text fill="#008000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="208" y="100.752">void</text></g><!--MD5=[5e1370445d2c065fb19bb4f605839f3f]
+class Couloir--><g id="elem_Couloir"><rect codeLine="21" fill="#F1F1F1" height="118.4375" id="Couloir" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="210" x="18.5" y="204"/><ellipse cx="96.75" cy="220" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M99.5156,215.875 Q99.6719,215.6563 99.8594,215.5469 Q100.0469,215.4375 100.2656,215.4375 Q100.6406,215.4375 100.875,215.6953 Q101.1094,215.9531 101.1094,216.5625 L101.1094,218.0156 Q101.1094,218.625 100.875,218.8906 Q100.6406,219.1563 100.2656,219.1563 Q99.9219,219.1563 99.7188,218.9531 Q99.5156,218.7656 99.4063,218.25 Q99.3594,217.8906 99.1719,217.7031 Q98.8438,217.3281 98.2344,217.1094 Q97.625,216.8906 97,216.8906 Q96.2344,216.8906 95.6016,217.2188 Q94.9688,217.5469 94.4766,218.2969 Q93.9844,219.0469 93.9844,220.0781 L93.9844,221.1719 Q93.9844,222.4063 94.875,223.2266 Q95.7656,224.0469 97.3594,224.0469 Q98.2969,224.0469 98.9531,223.7969 Q99.3438,223.6406 99.7656,223.2031 Q100.0313,222.9375 100.1797,222.8594 Q100.3281,222.7813 100.5313,222.7813 Q100.8594,222.7813 101.1172,223.0391 Q101.375,223.2969 101.375,223.6406 Q101.375,223.9844 101.0313,224.3906 Q100.5313,224.9688 99.7344,225.2969 Q98.6563,225.75 97.3594,225.75 Q95.8438,225.75 94.6406,225.125 Q93.6563,224.625 92.9688,223.5547 Q92.2813,222.4844 92.2813,221.2031 L92.2813,220.0469 Q92.2813,218.7188 92.8984,217.5703 Q93.5156,216.4219 94.6094,215.8047 Q95.7031,215.1875 96.9375,215.1875 Q97.6719,215.1875 98.3203,215.3516 Q98.9688,215.5156 99.5156,215.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="117.25" y="225.7285">Couloir</text><line style="stroke:#181818;stroke-width:0.5;" x1="19.5" x2="227.5" y1="236" y2="236"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="26.5" y="247.3047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35" x="38.5" y="254.5332">num :</text><text fill="#008000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="15" x="77.5" y="254.5332">int</text><line style="stroke:#181818;stroke-width:0.5;" x1="19.5" x2="227.5" y1="261.6094" y2="261.6094"/><ellipse cx="29.5" cy="275.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="38.5" y="280.1426">getNum() :</text><text fill="#008000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="15" x="108.5" y="280.1426">int</text><ellipse cx="29.5" cy="293.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154" x="38.5" y="297.752">affecterAthlete(Athlete) :</text><text fill="#008000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="196.5" y="297.752">void</text><ellipse cx="29.5" cy="311.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="38.5" y="315.3613">getConcurrent() :</text><text fill="#008000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="151.5" y="315.3613">Athlete</text></g><!--MD5=[8c83fc1f94a872d1f70b29724d852d9e]
+reverse link Couloir to Athlete--><g id="link_Couloir_Athlete"><path codeLine="29" d="M241.79,263 C249.11,263 256.42,263 263.74,263 " fill="none" id="Couloir-backto-Athlete" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="228.62,263,234.62,267,240.62,263,234.62,259,228.62,263" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e3fead6f36b216db213fc906e3286bdb]
+reverse link Course to Couloir--><g id="link_Course_Couloir"><path codeLine="30" d="M123.5,121.37 C123.5,147.71 123.5,178.14 123.5,203.94 " fill="none" id="Course-backto-Couloir" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="123.5,108.02,119.5,114.02,123.5,120.02,127.5,114.02,123.5,108.02" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="45" x="124.5" y="152.4951">couloirs</text></g><!--MD5=[1351d4958fd4e7b844aca24295d4d0ea]
+@startuml
+
+!includeurl https://raw.githubusercontent.com/manuvai/plantuml-utils/master/class_diagram_utils.puml
+
+class Athlete {
+    -string(nom)
+    -string(prenom)
+
+    +string("getNom()")
+    +void("setNom(String)")
+    +string("getPrenom()")
+    +void("setPrenom(String)")
+}
+
+class Course {
+    -int(libelle)
+
+    +string("getLibelle()")
+    +void("affecterAthlete(Athlete, int)")
+}
+
+class Couloir {
+    -int(num)
+
+    +int("getNum()")
+    +void("affecterAthlete(Athlete)")
+    +member(Athlete, "getConcurrent()")
+}
+
+Couloir *-right- Athlete
+Course o- - Couloir : couloirs
+
+
+@enduml
+
+@startuml
+
+
+hide empty members
+hide empty methods
+
+
+
+
+
+
+
+
+
+
+
+
+class Athlete {
+    -nom : <color:green>String</color>
+    -prenom : <color:green>String</color>
+
+    +getNom() : <color:green>String</color>
+    +setNom(String) : <color:green>void</color>
+    +getPrenom() : <color:green>String</color>
+    +setPrenom(String) : <color:green>void</color>
+}
+
+class Course {
+    -libelle : <color:green>int</color>
+
+    +getLibelle() : <color:green>String</color>
+    +affecterAthlete(Athlete, int) : <color:green>void</color>
+}
+
+class Couloir {
+    -num : <color:green>int</color>
+
+    +getNum() : <color:green>int</color>
+    +affecterAthlete(Athlete) : <color:green>void</color>
+    +getConcurrent() : <color:green>Athlete</color>
+}
+
+Couloir *-right- Athlete
+Course o- - Couloir : couloirs
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: fr
+Country: FR
+--></g></svg>
