@@ -30,8 +30,7 @@ class Couloir {
     +int("getNum()")
     +void("setAthlete(Athlete)")
     +member(Athlete, "getAthlete()")
-    +void("enregistrerTemps()")
-    +float("getTemps()")
+    +int("getTemps()")
     +void("start()")
     +void("stop()")
 }
