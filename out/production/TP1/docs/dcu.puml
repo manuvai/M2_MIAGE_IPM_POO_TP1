@@ -1,0 +1,19 @@
+@startuml
+
+!includeurl https://raw.githubusercontent.com/manuvai/plantuml-utils/master/usecase_diagram_utils.puml
+
+actor Arbitre as user
+
+usecase("Connaitre libelle", getLib)
+usecase("Affecter athlete à couloir", affecterAthlete)
+usecase("Enregistrer temps d'un couloir", enregistrerTemps)
+usecase("Connaître le concurrent d'un couloir donné", recupererConcurrentAffecte)
+usecase("Connaître le vainqueur de la course", connaitreVainqueur)
+
+user --> getLib
+user --> affecterAthlete
+user --> enregistrerTemps
+user --> recupererConcurrentAffecte
+user --> connaitreVainqueur
+
+@enduml
