@@ -25,4 +25,16 @@ public class Athlete {
                 ? null
                 : nom.concat(" ").concat(prenom);
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Athlete athlete)) return false;
+        return Objects.equals(nom, athlete.nom) && Objects.equals(prenom, athlete.prenom);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(nom, prenom);
+    }
 }

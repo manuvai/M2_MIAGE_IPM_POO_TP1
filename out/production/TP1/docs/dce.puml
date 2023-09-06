@@ -12,6 +12,7 @@ class Course {
     -string(libelle)
 
     +string("getLibelle()")
+    +void("affecterAthleteDansCouloir(Athlete, int)")
     +void("enregistrerTempsCouloir(int)")
     +void("finirTempsCouloir(int)")
     +member(Athlete, "recupererConcurrentCouloir(int)")
@@ -23,11 +24,12 @@ class Couloir {
     -int(numCouloir)
     +void("enregistrerTemps()")
     +void("finirTemps()")
+    +void("affecterAthlete(Athlete)")
     +member(Athlete, "recupererConcurrent()")
     +void("affichage()")
 }
 
-Couloir *-right- Athlete : concurrent
+Couloir *-right- Athlete : list(Athlete, concurrent)
 Course o-- Couloir : couloirs
 
 
