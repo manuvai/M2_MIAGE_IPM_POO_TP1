@@ -4,25 +4,8 @@ import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
 import res.Athlete;
 import res.Couloir;
-import res.exceptions.StartDateNullException;
 
 public class CouloirTest {
-
-    @Test(expected = StartDateNullException.class)
-    public void finirTemps_startDateNull_Ko() {
-        Couloir couloir = new Couloir(404);
-
-        couloir.finirTemps();
-
-    }
-    @Test
-    public void finirTemps_Ok() {
-        Couloir couloir = new Couloir(200);
-        couloir.enregistrerTemps();
-
-        Assertions.assertDoesNotThrow(couloir::finirTemps);
-
-    }
 
     @Test
     public void toString_concurrentNull_Ko() {

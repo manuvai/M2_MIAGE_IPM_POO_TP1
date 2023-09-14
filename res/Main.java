@@ -3,7 +3,7 @@ package res;
 import java.util.Objects;
 
 public class Main {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         // Définition de l'athlète martin
         Athlete martin = new Athlete("DUPONT", "Martin");
         martin.affichage();
@@ -38,14 +38,9 @@ public class Main {
                 .affichage();
 
         // Enregistrement des temps
-        course.enregistrerTempsCouloir(1);
-        Thread.sleep(200);
-
-        course.enregistrerTempsCouloir(2);
-        Thread.sleep(900);
-
-        course.enregistrerTempsCouloir(3);
-        Thread.sleep(100);
+        course.enregistrerTempsCouloir(1, 15);
+        course.enregistrerTempsCouloir(2, 20);
+        course.enregistrerTempsCouloir(3, 50);
 
         // Affichage du vainqueur
         Utils.println("\nLe vainqueur de la course est : ");

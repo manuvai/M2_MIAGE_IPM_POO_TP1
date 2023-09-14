@@ -28,21 +28,13 @@ public class Course {
 
     }
 
-    public void enregistrerTempsCouloir(int iCouloir) {
+    public void enregistrerTempsCouloir(int iCouloir, float inTemps) {
         if (iCouloir > couloirs.length) {
             throw new IndexCouloirOutOfBounds();
         }
 
-        couloirs[iCouloir - 1].enregistrerTemps();
+        couloirs[iCouloir - 1].enregistrerTemps(inTemps);
 
-    }
-
-    public void finirTempsCouloir(int iCouloir) {
-        if (iCouloir > couloirs.length) {
-            throw new IndexCouloirOutOfBounds();
-        }
-
-        couloirs[iCouloir - 1].finirTemps();
     }
 
     public Athlete recupererConcurrentCouloir(int iCouloir) {
@@ -56,18 +48,13 @@ public class Course {
     public Athlete recupererVainqueur() {
         Couloir couloirVainqueur = null;
 
-        if (Objects.nonNull(couloirs) && couloirs.length > 0) {
-            for (int i = 0; i < couloirs.length; i++) {
-                if (Objects.nonNull(couloirs[i])
-                        && Objects.nonNull(couloirs[i].recupererConcurrent())
+        if (Objects.nonNull(couloirs)) {
+            for (Couloir couloirActuel : couloirs) {
+                if (Objects.nonNull(couloirActuel) && Objects.nonNull(couloirActuel.recupererConcurrent())) {
+                    float tempsCouloirConcurrent = couloirActuel.getTemps();
 
-                ) {
-                    Long tempsCouloirConcurrent = couloirs[i].getTemps();
-
-                    if (Objects.nonNull(tempsCouloirConcurrent)
-                            && (Objects.isNull(couloirVainqueur) || tempsCouloirConcurrent < couloirVainqueur.getTemps())
-                    ) {
-                        couloirVainqueur = couloirs[i];
+                    if (Objects.isNull(couloirVainqueur) || tempsCouloirConcurrent < couloirVainqueur.getTemps()) {
+                        couloirVainqueur = couloirActuel;
                     }
 
                 }

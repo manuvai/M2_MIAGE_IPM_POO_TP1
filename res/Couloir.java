@@ -1,32 +1,19 @@
 package res;
 
-import res.exceptions.StartDateNullException;
-
-import java.util.Date;
 import java.util.Objects;
 
 public class Couloir {
     private int numCouloir;
-
-    private Date startDate;
-    private Date endDate;
+    private float temps;
     private Athlete concurrent;
 
     public Couloir(int inNumCouloir) {
         numCouloir = inNumCouloir;
+        enregistrerTemps(Float.POSITIVE_INFINITY);
     }
 
-    public void enregistrerTemps() {
-        startDate = new Date();
-    }
-
-    public void finirTemps() {
-        if (Objects.isNull(startDate)) {
-            throw new StartDateNullException();
-        }
-
-        endDate = new Date();
-
+    public void enregistrerTemps(float inTemps) {
+        temps = inTemps;
     }
 
     public void affecterAthlete(Athlete athlete) {
@@ -53,11 +40,9 @@ public class Couloir {
                 .concat(", concurrent : ").concat(nomConcurrent);
     }
 
-    public Long getTemps() {
+    public float getTemps() {
 
-        return Objects.isNull(startDate) || Objects.isNull(endDate)
-                ? null
-                : endDate.getTime() - startDate.getTime();
+        return temps;
 
     }
 }

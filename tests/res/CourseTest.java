@@ -37,7 +37,7 @@ public class CourseTest {
     public void enregistrerTempsCouloir_iCouloirOutBounds_Ko() {
         Course course = new Course("Course 404", new Couloir[] {});
 
-        course.enregistrerTempsCouloir(1);
+        course.enregistrerTempsCouloir(1, 200);
 
     }
     @Test
@@ -45,24 +45,7 @@ public class CourseTest {
         Course course = new Course("Course 200", new Couloir[] {new Couloir(200)});
 
         Assertions.assertDoesNotThrow(() -> course
-                .enregistrerTempsCouloir(1));
-
-    }
-
-    @Test(expected = IndexCouloirOutOfBounds.class)
-    public void finirTempsCouloir_iCouloirOutBounds_Ko() {
-        Course course = new Course("Course 404", new Couloir[] {});
-
-        course.finirTempsCouloir(1);
-
-    }
-    @Test
-    public void finirTempsCouloir_Ok() {
-        Course course = new Course("Course 200", new Couloir[] {new Couloir(200)});
-        course.enregistrerTempsCouloir(1);
-
-        Assertions.assertDoesNotThrow(() -> course
-                .finirTempsCouloir(1));
+                .enregistrerTempsCouloir(1, 200));
 
     }
 

@@ -19,28 +19,22 @@ public class CourseMock {
         Course course = new Course("404", new Couloir[]{new Couloir(200)});
 
         course.affecterAthleteDansCouloir(new Athlete("Doe", "John"), 1);
-        course.enregistrerTempsCouloir(1);
-        course.finirTempsCouloir(1);
+        course.enregistrerTempsCouloir(1, 200);
 
         return course;
     }
-    public Course getCourseWithMultipleConcurrents() throws InterruptedException {
+    public Course getCourseWithMultipleConcurrents() {
 
         Course course = new Course("404", new Couloir[]{new Couloir(200), new Couloir(201), new Couloir(202)});
 
         course.affecterAthleteDansCouloir(new Athlete("Doe", "John"), 1);
-        course.enregistrerTempsCouloir(1);
-        course.finirTempsCouloir(1);
+        course.enregistrerTempsCouloir(1, 10);
 
         course.affecterAthleteDansCouloir(new Athlete("Doe", "John"), 2);
-        course.enregistrerTempsCouloir(2);
-        Thread.sleep(100);
-        course.finirTempsCouloir(2);
+        course.enregistrerTempsCouloir(2, 1000);
 
         course.affecterAthleteDansCouloir(new Athlete("Doe", "John"), 3);
-        course.enregistrerTempsCouloir(3);
-        Thread.sleep(200);
-        course.finirTempsCouloir(3);
+        course.enregistrerTempsCouloir(3, 2000);
 
         return course;
     }

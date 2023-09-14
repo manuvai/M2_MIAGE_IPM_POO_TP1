@@ -30,7 +30,7 @@ class Couloir {
 }
 
 Couloir *-right- Athlete : list(Athlete, concurrent)
-Course o-- Couloir : couloirs
+Course o-- Couloir : member("Couloir[]", couloirs)
 
 
 @enduml
