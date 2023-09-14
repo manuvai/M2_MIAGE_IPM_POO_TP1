@@ -32,6 +32,9 @@ public class Main {
         course.affecterAthleteDansCouloir(new Athlete("BERNARD", "Tapis"), 2);
         course.affichage();
 
+        course.ajouterCouloir(new Couloir(4));
+        course.affecterAthleteDansCouloir(new Athlete("Partou", "tatis"), 4);
+
         // Affichage du concurrent du couloir 2
         Utils.println("\nConcurrent du couloir 2 : ");
         Objects.requireNonNull(course.recupererConcurrentCouloir(2))
@@ -41,6 +44,7 @@ public class Main {
         course.enregistrerTempsCouloir(1, 15);
         course.enregistrerTempsCouloir(2, 20);
         course.enregistrerTempsCouloir(3, 50);
+        course.enregistrerTempsCouloir(4, 120);
 
         // Affichage du vainqueur
         Utils.println("\nLe vainqueur de la course est : ");

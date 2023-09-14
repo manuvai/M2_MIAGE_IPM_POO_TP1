@@ -11,9 +11,27 @@ public class Course {
 
     private Couloir[] couloirs;
 
+    public Course(String inLibelle) {
+        this(inLibelle, new Couloir[0]);
+    }
+
     public Course(String inLibelle, Couloir[] inCouloirs) {
         libelle = inLibelle;
         couloirs = inCouloirs;
+    }
+
+    public void ajouterCouloir(Couloir couloir) {
+        if (Objects.nonNull(couloir)) {
+            Couloir[] newCouloirs = new Couloir[couloirs.length + 1];
+
+            for (int i = 0; i < couloirs.length; i++) {
+                newCouloirs[i] = couloirs[i];
+            }
+
+            newCouloirs[newCouloirs.length - 1] = couloir;
+
+            couloirs = newCouloirs;
+        }
     }
 
     public String getLibelle() {
@@ -21,7 +39,7 @@ public class Course {
     }
 
     public void affecterAthleteDansCouloir(Athlete athlete, int iCouloir) {
-        if (iCouloir > couloirs.length) {
+        if (iCouloir > couloirs.length || iCouloir < 1) {
             throw new IndexCouloirOutOfBounds();
         }
         couloirs[iCouloir - 1].affecterAthlete(athlete);
@@ -71,7 +89,7 @@ public class Course {
     }
 
     public String toString() {
-        return "Course ".concat(libelle)
+        return "Course ".concat(getLibelle())
                 .concat("\n\tCouloirs : ").concat(Arrays.toString(couloirs));
     }
 
